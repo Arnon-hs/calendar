@@ -1,0 +1,15 @@
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\bin\Debug\calendar.exe.config
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\bin\Debug\calendar.exe
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\bin\Debug\calendar.pdb
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.csprojAssemblyReference.cache
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\MainWindow.g.cs
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\App.g.cs
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar_MarkupCompile.cache
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar_MarkupCompile.lref
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\MainWindow.baml
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.g.resources
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.Properties.Resources.resources
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.csproj.GenerateResource.cache
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.csproj.CoreCompileInputs.cache
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.exe
+C:\Users\hotpe\Desktop\calendar\calendar\calendar\obj\Debug\calendar.pdb

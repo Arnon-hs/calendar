@@ -1,0 +1,135 @@
+﻿<Window x:Name="Date" x:Class="calendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calendar"
+        mc:Ignorable="d"
+        Title="Перевод даты" Height="364.772" Width="680.682">
+    <Grid Margin="0,0,-28.6,2.2">
+
+        <ComboBox x:Name="DayGrigorian" HorizontalAlignment="Left" Margin="211,76,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="ComboBox_SelectionChanged_1">
+            <TextBlock x:Name="day1Grigorian">1</TextBlock>
+            <TextBlock x:Name="day2Grigorian">2</TextBlock>
+            <TextBlock x:Name="day3Grigorian">3</TextBlock>
+            <TextBlock x:Name="day4Grigorian">4</TextBlock>
+            <TextBlock x:Name="day5Grigorian">5</TextBlock>
+            <TextBlock x:Name="day6Grigorian">6</TextBlock>
+            <TextBlock x:Name="day7Grigorian">7</TextBlock>
+            <TextBlock x:Name="day8Grigorian">8</TextBlock>
+            <TextBlock x:Name="day9Grigorian">9</TextBlock>
+            <TextBlock x:Name="day10Grigorian">10</TextBlock>
+            <TextBlock x:Name="day11Grigorian">11</TextBlock>
+            <TextBlock x:Name="day12Grigorian">12</TextBlock>
+            <TextBlock x:Name="day13Grigorian">13</TextBlock>
+            <TextBlock x:Name="day14Grigorian">14</TextBlock>
+            <TextBlock x:Name="day15Grigorian">15</TextBlock>
+            <TextBlock x:Name="day16Grigorian">16</TextBlock>
+            <TextBlock x:Name="day17Grigorian">17</TextBlock>
+            <TextBlock x:Name="day18Grigorian">18</TextBlock>
+            <TextBlock x:Name="day19Grigorian">19</TextBlock>
+            <TextBlock x:Name="day20Grigorian">20</TextBlock>
+            <TextBlock x:Name="day21Grigorian">21</TextBlock>
+            <TextBlock x:Name="day22Grigorian">22</TextBlock>
+            <TextBlock x:Name="day23Grigorian">23</TextBlock>
+            <TextBlock x:Name="day24Grigorian">24</TextBlock>
+            <TextBlock x:Name="day25Grigorian">25</TextBlock>
+            <TextBlock x:Name="day26Grigorian">26</TextBlock>
+            <TextBlock x:Name="day27Grigorian">27</TextBlock>
+            <TextBlock x:Name="day28Grigorian">28</TextBlock>
+            <TextBlock x:Name="day29Grigorian">29</TextBlock>
+            <TextBlock x:Name="day30Grigorian">30</TextBlock>
+            <TextBlock x:Name="day31Grigorian">31</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="MonthGrigorian" HorizontalAlignment="Left" Margin="359,77,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="ComboBox_SelectionChanged_2">
+            <TextBlock x:Name="JanuaryMonthGrigorian">Январь</TextBlock>
+            <TextBlock x:Name="FebruaryMonthGrigorian">Февраль</TextBlock>
+            <TextBlock x:Name="MartMonthGrigorian">Март</TextBlock>
+            <TextBlock x:Name="AprilMonthGrigorian">Апрель</TextBlock>
+            <TextBlock x:Name="MayMonthGrigorian">Май</TextBlock>
+            <TextBlock x:Name="JuneMonthGrigorian">Июнь</TextBlock>
+            <TextBlock x:Name="JuleMonthGrigorian">Июль</TextBlock>
+            <TextBlock x:Name="AugustMonthGrigorian">Август</TextBlock>
+            <TextBlock x:Name="SeptemberMonthGrigorian">Сентябрь</TextBlock>
+            <TextBlock x:Name="OctoberMontnGrigorian">Октябрь</TextBlock>
+            <TextBlock x:Name="NovemberMonthGrigorian">Ноябрь</TextBlock>
+            <TextBlock x:Name="DecemberMonthGrigorian">Декабрь</TextBlock>
+        </ComboBox>
+        <TextBox x:Name="YearGrigorian"  Height="23" Margin="512,77,58.976,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" UndoLimit="89" Text="2000"/>
+        <ComboBox x:Name="DayOfWeekGrigorian" HorizontalAlignment="Left" Margin="55,76,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"  SelectedIndex="5">
+            <TextBlock x:Name="MondayGrigorian">Понедельник</TextBlock>
+            <TextBlock x:Name="TuesdayGrigorian">Вторник</TextBlock>
+            <TextBlock x:Name="WednesdayGrigorian">Среда</TextBlock>
+            <TextBlock x:Name="ThursdayGrigorian">Четверг</TextBlock>
+            <TextBlock x:Name="FridayGrigorian">Пятница</TextBlock>
+            <TextBlock x:Name="SaturdayGrigorian">Суббота</TextBlock>
+            <TextBlock x:Name="SundayGrigorian">Воскресенье</TextBlock>
+        </ComboBox>
+
+        <ComboBox x:Name="DayJulian" HorizontalAlignment="Left" Margin="211,224,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="DayJulian_SelectionChanged" SelectedIndex="18">
+            <TextBlock x:Name="day1Julian">1</TextBlock>
+            <TextBlock x:Name="day2Julian">2</TextBlock>
+            <TextBlock x:Name="day3Julian">3</TextBlock>
+            <TextBlock x:Name="day4Julian">4</TextBlock>
+            <TextBlock x:Name="day5Julian">5</TextBlock>
+            <TextBlock x:Name="day6Julian">6</TextBlock>
+            <TextBlock x:Name="day7Julian">7</TextBlock>
+            <TextBlock x:Name="day8Julian">8</TextBlock>
+            <TextBlock x:Name="day9Julian">9</TextBlock>
+            <TextBlock x:Name="day10Julian">10</TextBlock>
+            <TextBlock x:Name="day11Julian">11</TextBlock>
+            <TextBlock x:Name="day12Julian">12</TextBlock>
+            <TextBlock x:Name="day13Julian">13</TextBlock>
+            <TextBlock x:Name="day14Julian">14</TextBlock>
+            <TextBlock x:Name="day15Julian">15</TextBlock>
+            <TextBlock x:Name="day16Julian">16</TextBlock>
+            <TextBlock x:Name="day17Julian">17</TextBlock>
+            <TextBlock x:Name="day18Julian">18</TextBlock>
+            <TextBlock x:Name="day19Julian">19</TextBlock>
+            <TextBlock x:Name="day20Julian">20</TextBlock>
+            <TextBlock x:Name="day21Julian">21</TextBlock>
+            <TextBlock x:Name="day22Julian">22</TextBlock>
+            <TextBlock x:Name="day23Julian">23</TextBlock>
+            <TextBlock x:Name="day24Julian">24</TextBlock>
+            <TextBlock x:Name="day25Julian">25</TextBlock>
+            <TextBlock x:Name="day26Julian">26</TextBlock>
+            <TextBlock x:Name="day27Julian">27</TextBlock>
+            <TextBlock x:Name="day28Julian">28</TextBlock>
+            <TextBlock x:Name="day29Julian">29</TextBlock>
+            <TextBlock x:Name="day30Julian">30</TextBlock>
+            <TextBlock x:Name="day31Julian">31</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="MonthJulian" HorizontalAlignment="Left" Margin="359,224,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="MonthJulian_SelectionChanged" SelectedIndex="11">
+            <TextBlock x:Name="JanuaryMonthJulian" >Январь</TextBlock>
+            <TextBlock x:Name="FebruaryMonthJulian">Февраль</TextBlock>
+            <TextBlock x:Name="MartMonthJulian">Март</TextBlock>
+            <TextBlock x:Name="AprilMonthJulian">Апрель</TextBlock>
+            <TextBlock x:Name="MayMonthJulian">Май</TextBlock>
+            <TextBlock x:Name="JuneMonthJulian">Июнь</TextBlock>
+            <TextBlock x:Name="JuleMonthJulian">Июль</TextBlock>
+            <TextBlock x:Name="AugustMonthJulian">Август</TextBlock>
+            <TextBlock x:Name="SeptemberMonthJulian">Сентябрь</TextBlock>
+            <TextBlock x:Name="OctoberMontnJulian">Октябрь</TextBlock>
+            <TextBlock x:Name="NovemberMonthJulian">Ноябрь</TextBlock>
+            <TextBlock x:Name="DecemberMonthJulian">Декабрь</TextBlock>
+        </ComboBox>
+        <TextBox x:Name="YearJulian" Height="23" Margin="512,224,58.976,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="1999"/>
+        <ComboBox x:Name="DayOfWeekJulian" HorizontalAlignment="Left" Margin="55,224,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_3" SelectedIndex="5">
+            <TextBlock x:Name="MondayJulian">Понедельник</TextBlock>
+            <TextBlock x:Name="TuesdayJulian">Вторник</TextBlock>
+            <TextBlock x:Name="WednesdayJulian">Среда</TextBlock>
+            <TextBlock x:Name="ThursdayJulian">Четверг</TextBlock>
+            <TextBlock x:Name="FridayJulian">Пятница</TextBlock>
+            <TextBlock x:Name="SaturdayJulian">Суббота</TextBlock>
+            <TextBlock x:Name="SundayJulian">Воскресенье</TextBlock>
+        </ComboBox>
+
+        <Label Content="Григорианский календарь" HorizontalAlignment="Left" Margin="291,35,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Label Content="Юлианский календарь" HorizontalAlignment="Left" Margin="291,170,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Label Content="Примечания:" HorizontalAlignment="Left" Margin="211,277,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Exceptions" HorizontalAlignment="Left" Margin="460,282,0,0" Text=" " VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="BtnToJ" Content="Перевод туда" HorizontalAlignment="Left" Margin="211,121,0,0" VerticalAlignment="Top" Width="83" Click="BtnToJ_Click"/>
+        <Button x:Name="BtnToG"  Content="Перевод сюда" HorizontalAlignment="Left" Margin="392,121,0,0" VerticalAlignment="Top" Width="87" Click="BtnToG_Click"/>
+
+    </Grid>
+</Window>
